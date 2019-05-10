@@ -1,0 +1,11 @@
+spring:
+  profiles: dev
+
+server:
+  port: 8080
+
+logging:
+  level:
+    root: DEBUG
+    org.hibernate: DEBUG
+  file: dev.log
