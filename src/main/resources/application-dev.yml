@@ -8,4 +8,5 @@ logging:
   level:
     root: DEBUG
     org.hibernate: DEBUG
-  file: dev.log
+    springframework.web: DEBUG
+  file: logs/dev.log
